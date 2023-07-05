@@ -1,0 +1,32 @@
+.mobile-nav {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.closed {
+  display: none;
+}
+.mobile-nav span {
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+}
+.mobile-nav__links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.mobile-nav__link a,
+.mobile-nav__link a:visited {
+  font-size: 3rem;
+  color: black;
+}
+.mobile-nav__link a:hover {
+  text-decoration: underline;
+}
