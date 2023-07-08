@@ -14,11 +14,9 @@ body {
   font-size: 1.6rem;
 }
 .container {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-section {
-  padding-top: 12rem;
+  margin: 0 auto;
+  padding: 0 1.9rem;
+  max-width: 120rem;
 }
 
 .material-symbols-outlined {

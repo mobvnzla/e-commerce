@@ -3,78 +3,31 @@ import './Hero.css';
 function Hero() {
   return (
     <>
-      <section className='hero container'>
-        <h1>Home</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis magnam incidunt eos dolor modi
-          excepturi reprehenderit iusto recusandae vitae earum ullam id repellendus sit quasi odio, aspernatur tempora
-          voluptatum obcaecati. Officia architecto aliquam et facilis ex earum fugit quidem, dolorum, mollitia
-          perferendis quis maiores quisquam ipsum reiciendis quibusdam cum, voluptatem nobis aspernatur dolor inventore!
-          Expedita natus iure nobis esse! Dicta!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis magnam incidunt eos dolor modi
-          excepturi reprehenderit iusto recusandae vitae earum ullam id repellendus sit quasi odio, aspernatur tempora
-          voluptatum obcaecati. Officia architecto aliquam et facilis ex earum fugit quidem, dolorum, mollitia
-          perferendis quis maiores quisquam ipsum reiciendis quibusdam cum, voluptatem nobis aspernatur dolor inventore!
-          Expedita natus iure nobis esse! Dicta!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis magnam incidunt eos dolor modi
-          excepturi reprehenderit iusto recusandae vitae earum ullam id repellendus sit quasi odio, aspernatur tempora
-          voluptatum obcaecati. Officia architecto aliquam et facilis ex earum fugit quidem, dolorum, mollitia
-          perferendis quis maiores quisquam ipsum reiciendis quibusdam cum, voluptatem nobis aspernatur dolor inventore!
-          Expedita natus iure nobis esse! Dicta!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis magnam incidunt eos dolor modi
-          excepturi reprehenderit iusto recusandae vitae earum ullam id repellendus sit quasi odio, aspernatur tempora
-          voluptatum obcaecati. Officia architecto aliquam et facilis ex earum fugit quidem, dolorum, mollitia
-          perferendis quis maiores quisquam ipsum reiciendis quibusdam cum, voluptatem nobis aspernatur dolor inventore!
-          Expedita natus iure nobis esse! Dicta!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis magnam incidunt eos dolor modi
-          excepturi reprehenderit iusto recusandae vitae earum ullam id repellendus sit quasi odio, aspernatur tempora
-          voluptatum obcaecati. Officia architecto aliquam et facilis ex earum fugit quidem, dolorum, mollitia
-          perferendis quis maiores quisquam ipsum reiciendis quibusdam cum, voluptatem nobis aspernatur dolor inventore!
-          Expedita natus iure nobis esse! Dicta!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis magnam incidunt eos dolor modi
-          excepturi reprehenderit iusto recusandae vitae earum ullam id repellendus sit quasi odio, aspernatur tempora
-          voluptatum obcaecati. Officia architecto aliquam et facilis ex earum fugit quidem, dolorum, mollitia
-          perferendis quis maiores quisquam ipsum reiciendis quibusdam cum, voluptatem nobis aspernatur dolor inventore!
-          Expedita natus iure nobis esse! Dicta!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis magnam incidunt eos dolor modi
-          excepturi reprehenderit iusto recusandae vitae earum ullam id repellendus sit quasi odio, aspernatur tempora
-          voluptatum obcaecati. Officia architecto aliquam et facilis ex earum fugit quidem, dolorum, mollitia
-          perferendis quis maiores quisquam ipsum reiciendis quibusdam cum, voluptatem nobis aspernatur dolor inventore!
-          Expedita natus iure nobis esse! Dicta!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis magnam incidunt eos dolor modi
-          excepturi reprehenderit iusto recusandae vitae earum ullam id repellendus sit quasi odio, aspernatur tempora
-          voluptatum obcaecati. Officia architecto aliquam et facilis ex earum fugit quidem, dolorum, mollitia
-          perferendis quis maiores quisquam ipsum reiciendis quibusdam cum, voluptatem nobis aspernatur dolor inventore!
-          Expedita natus iure nobis esse! Dicta!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis magnam incidunt eos dolor modi
-          excepturi reprehenderit iusto recusandae vitae earum ullam id repellendus sit quasi odio, aspernatur tempora
-          voluptatum obcaecati. Officia architecto aliquam et facilis ex earum fugit quidem, dolorum, mollitia
-          perferendis quis maiores quisquam ipsum reiciendis quibusdam cum, voluptatem nobis aspernatur dolor inventore!
-          Expedita natus iure nobis esse! Dicta!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis magnam incidunt eos dolor modi
-          excepturi reprehenderit iusto recusandae vitae earum ullam id repellendus sit quasi odio, aspernatur tempora
-          voluptatum obcaecati. Officia architecto aliquam et facilis ex earum fugit quidem, dolorum, mollitia
-          perferendis quis maiores quisquam ipsum reiciendis quibusdam cum, voluptatem nobis aspernatur dolor inventore!
-          Expedita natus iure nobis esse! Dicta!
-        </p>
+      <section className='hero'>
+        <div className='container'>
+          <div className='grid'>
+            <div className='grid-item grid-item-one'>
+              <div className='overlay'></div>
+              <div className='img'></div>
+              <span className='keyword'>Live Comfortably</span>
+            </div>
+            <div className='grid-item grid-item-two'>
+              <div className='overlay'></div>
+              <div className='img'></div>
+              <span className='keyword'>Skincare</span>
+            </div>
+            <div className='grid-item grid-item-three'>
+              <div className='overlay'></div>
+              <div className='img'></div>
+              <span className='keyword'>Kitchen</span>
+            </div>
+            <div className='grid-item grid-item-four'>
+              <div className='overlay'></div>
+              <div className='img'></div>
+              <span className='keyword'>Electronics</span>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
